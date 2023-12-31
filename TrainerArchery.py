@@ -3,7 +3,7 @@ import numpy as np
 import time
 import PoseModule as pm
 
-cap = cv2.VideoCapture('C:/Users/User/Desktop/Videoarcher/Cropped/Train/1.mp4')
+cap = cv2.VideoCapture(0)
 detector = pm.poseDetector()
 while True:
     success, img = cap.read()
